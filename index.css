@@ -1,0 +1,63 @@
+body {
+	background-color: #fafafa;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	font-weight: 400;
+	position: relative;
+	text-rendering: geometricPrecision;
+	width: 100%;
+}
+
+main {
+	font-family: 'Space Grotesk', sans-serif;
+	margin-top: 165px;
+	margin-left: 28vw;
+	margin-right: 28vw;
+	text-align: center;
+	font-size: 80px;
+}
+
+main .heading {
+	margin-bottom: 70px;
+	font-weight: 800;
+}
+
+main .content * {
+	margin-bottom: 80px;
+}
+
+main .logo {
+	width: 10vw;
+	align-self: center;
+	margin: auto;
+	margin-top: 50vh;
+	margin-bottom: 150px;
+	min-width: 150px;
+}
+
+@media only screen and (max-device-width: 425px) {
+	main {
+		margin-top: 165px;
+		margin-left: 15vw;
+		margin-right: 15vw;
+	}
+
+	main .heading {
+		margin-top: 165px;
+		margin-left: 2vw;
+		margin-right: 2vw;
+		text-align: center;
+	}
+
+	main .content * {
+		margin-top: 20vh;
+		margin-bottom: 20vh;
+		font-size: 80px;
+	}
+
+	main .logo {
+		width: 30vw;
+		margin-top: 20vh;
+	}
+}
