@@ -11,9 +11,8 @@ body {
 
 main {
 	font-family: 'Space Grotesk', sans-serif;
+	margin: 28vw;
 	margin-top: 165px;
-	margin-left: 28vw;
-	margin-right: 28vw;
 	text-align: center;
 	font-size: 80px;
 }
